@@ -2,7 +2,7 @@
 	text-align: center;
 	font-family: helvetica;
 	margin: 0px;
-	color: #585757;
+	color: #ffffff;
 	letter-spacing: 2px;
 }
 
@@ -26,7 +26,7 @@ section {
 }
 
 .title {
-border: 3px solid #000;
+border: 3px solid #ffffff;
 padding: 25px;
 margin: 25px;
 font-size: 50px;
@@ -34,7 +34,7 @@ font-weight: 100px;
 }
 
 .email {
-	border:1px solid #58757;
+	border:1px solid #ffffff;
 	background-color: #efefef;
 	padding: 10px 35px;
 	font-size: 16px;
@@ -42,10 +42,10 @@ font-weight: 100px;
 
 .button {
 	padding: 10px 25px;
-	border:1px solid #58757;
+	border:1px solid #ffffff;
 	font-size: 16px;
 	color: #58757;
-	background-color: #58757;
+	background-color: #ffffff;
 }
 
 .mc-field-group {
