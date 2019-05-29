@@ -1,17 +1,31 @@
 *, body { 
 	text-align: center;
-	font-family: helvetica;
+	font-family: 'Permanent Marker', cursive; helvetica;
 	margin: 0px;
 	color: #ffffff;
 	letter-spacing: 2px;
+	font-weight: 300;
 }
 
 section {
 	min-height: 100vh;
 }
 
+a {
+	text-decoration: none; 
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+i {
+	font-size: 30px;
+}
+
 .flex {
 	display: flex;
+	color: #ffffff;
 }
 
 .center {
@@ -20,7 +34,7 @@ section {
 }
 
 .hero {
-	background-image: url(./img/backdrop_blank_blue.jpg);
+	background-image: url(../img/backdrop_blank_blue.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -34,7 +48,7 @@ font-weight: 100px;
 }
 
 .email {
-	border:1px solid #ffffff;
+	border:1px solid #000000;
 	background-color: #efefef;
 	padding: 10px 35px;
 	font-size: 16px;
@@ -45,7 +59,7 @@ font-weight: 100px;
 	border:1px solid #ffffff;
 	font-size: 16px;
 	color: #58757;
-	background-color: #ffffff;
+	background-color: #000000;
 }
 
 .mc-field-group {

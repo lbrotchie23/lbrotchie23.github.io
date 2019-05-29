@@ -12,20 +12,42 @@
 
 		  gtag('config', 'UA-138365371-1');
 		</script>
+
 		<title>Super Curious Tester!</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
+		<link rel="stylesheet" type="text/css" href="./css/flex.css">
+		<link rel="stylesheet" type="text/css" href="./css/nav.css">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
 	<body>
+		<div id="close-nav" class="menu hidden-desktop" onclick="closeNav()"><i class="fas fa-times"></i></div>
+		<div id="open-nav" class="menu hidden-desktop" onclick="openNav()"><i class="fas fa-bars"></i></div>
+	
+
+		<nav id="nav" class="nav flex center hidden-mobile">
+			<a href="/">
+				<img class="logo" src="./img/QuestionLogo.png">
+			</a>
+			<a href="/">Home</a>
+			<a href="/about">About</a>
+			<a href="/Coffee?">
+				<i class="fas fa-mug-hot"></i>
+			</a>
+			
+		</nav>
 		<section class="flex center hero">
 			<div>
 				<h1 class="title">Super Curious Tester</h1>
 				<h2>A deep dive into testing</h2>
 				<p>Design - Planning - Exploratory - Technical<p>
 
-									<!-- Begin Mailchimp Signup Form -->
+				<!-- Begin Mailchimp Signup Form -->
 				<div id="mc_embed_signup">
-				<form action="https://writeme.us20.list-manage.com/subscribe/post?u=c17dd2a0d54513d750fcff81c&amp;id=48e4b98f3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<form action="https://writeme.us20.list-manage.com/subscribe/post?u=c17dd2a0d54513d750fcff81c&amp;id=48e4b98f3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				    <div id="mc_embed_signup_scroll">
 					
 				<div class="mc-field-group">
@@ -44,9 +66,36 @@
 				</div>
 
 				<!--End mc_embed_signup-->
+			
+			</div>
+		</section>
+
+		<!--Pure Flexbox-->
+		<section>
+			<div class="flex center">
+				<div style="width: 500px;">
+					<img src="./img/arrow.png">
+				</div>
+				<div>
+					<h2 style="color: #000">Flexbox</h2>
+					<p style="color: #000">this is a paragraph about the product</p>
+				</div>
+			</div>
+		</section>
+
+		<!--Flex + Grid System-->
+		<section>
+			<div class="flex center">
+				<div class="flex-4 flex-mobile-12">
+					<img src="./img/arrow.png">
+				</div>
+				<div>
+					<h2 style="color: #000">Flex + Grid</h2>
+					<p style="color: #000">this is a paragraph about the product</p>
+				</div>
 			</div>
 		</section>
 	</body>
 
-
+<script src="./js/nav.js"></script>
 </html>
